@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEWELRIES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Jewelries</h2>
+    <section class="direction">
+    <div class="jewel">
+        <p class="jewel_texts">Jewellery consists of decorative items worn for personal adornment such as brooches, rings, necklaces, earings,
+            pendants,bracelets, and cufflinks. Jewellerymay be attached to the body or clothes. They are durable ornaments.
+        </p>
+        <div class="images">
+       <img src="1000_F_180955484_2gqku5oFKA23Kh0gAC8oNM3y61xz0o9t.jpg">
+       <img src="1000_F_447914195_XdcRh5miaqdCGBsHKM87zSCDDBfOwWkO.jpg">
+       </div>
+    </div>
+    <div class="list_of_products">
+      <p class="jewel_texts">list of goods available:</p>
+      <ul>
+        <li>Pendant -<img src="istockphoto-136584955-2048x2048.jpg"></li>
+        <li>Necklace - <img src="necklace.jpeg"></li>
+        <li>legchain - <img src="leg chain.webp"></li>
+        <li>Bracelet - <img src="bracelet.jpg"></li>
+        <li>Ring - <img src ="ring.jpg"></li>
+      </ul>
+    </div>
+    </section>
+    <section class="add_to_cart">
+        <div class="box">
+            <img src="istockphoto-136584955-2048x2048.jpg">
+            <p>Pendant <span>$20.00</span></p>
+            <button class='cart_btn'>Add to cart(0)</button>
+            <button class="increasing_btn">+</button>
+            <button class="decreasing_btn">-</button>
+        </div>
+         <div class="box">
+            <img src="necklace.jpeg">
+            <p>Necklace <span>$15.00</span></p>
+            <button class='cart_btn'>Add to cart(0)</button>
+            <button class="increasing_btn">+</button>
+            <button class="decreasing_btn">-</button>
+        </div>
+         <div class="box">
+            <img src="leg chain.webp">
+            <p>Legchain <span>$35.00</span></p>
+            <button class='cart_btn'>Add to cart(0)</button>
+            <button class="increasing_btn">+</button>
+            <button class="decreasing_btn">-</button>
+        </div>
+         <div class="box">
+            <img src="bracelet.jpg">
+            <p>Bracelet <span>$25.00</span></p>
+            <button class='cart_btn'>Add to cart(0)</button>
+            <button class="increasing_btn">+</button>
+            <button class="decreasing_btn">-</button>
+        </div>
+         <div class="box">
+            <img src="ring.jpg">
+            <p>Ring <span>$30.00</span></p>
+            <button class='cart_btn'>Add to cart(0)</button>
+            <button class="increasing_btn">+</button>
+            <button class="decreasing_btn">-</button>
+        </div>
+    </section>
+    <form>
+            <label>Customer Name:</label>
+            <input type="text" placeholder = 'Enter ypur name'id = "name" required>
+            <label>Email Address:</label>
+            <input type="email" placeholder = 'mary123@10'id = "name" required>
+            <label>Address:</label>
+            <textarea id = "address" required>Your Address.... </textarea>
+            <input type="submit" value="SUBMIT" class="submit_btn">
+        </form>
+        <div class="pop_message hidden"> 
+            <button class="close-modal">&times;</button>
+            <p>Thanks for patronizing us 🤝🤝</p>
+            <span>✔✔✔</span>
+        </div>
+        <div class="overlay hidden"></div>
+    <script src="cart.js"></script>  
+</body>
+</html>
